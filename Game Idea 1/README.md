@@ -14,8 +14,11 @@ Have you ever used `nano` on linux , or `edit` on Ms-DOS? Those are Text-mode in
 
 A desktop manager like [TWIN](https://github.com/cosmos72/twin) fits nicely.  
 ![Source: https://inconsolation.wordpress.com/2013/01/24/bonus-twin-bigger-and-better-than-ever/](TWIN-Desktop.png "The Twin Desktop.")
+Another cool one is [VTM](https://github.com/netxs-group/vtm), It makes full use of the 256 colors, working in things like gradients. They even have a live demo on ssh! Check it out on: `ssh vtm@netxs.online`
 
-((INSERT IMAGE OF MAPSCII))
+There are also some great applications that show off in this style:  
+[Midnight Commander](http://midnight-commander.org/) (`mc`), [Spotify TUI](https://github.com/Rigellute/spotify-tui)(`spt`), [MapSCII](https://github.com/rastapasta/mapscii)(`mapscii`), [timg](https://github.com/hzeller/timg/)(`timg`), [VisiData](https://github.com/saulpw/visidata)(`vd`), and many more applications found [here](https://github.com/rothgar/awesome-tuis).
+
 
 ### Gameplay
 
@@ -55,7 +58,10 @@ There are various games I drew inspiration from, such as these:
 
 ## Links:
 
-Here are some various links to other Github places that I used for inspiration:
-
+Here are some various links to other Github places that I used for inspiration:  
 Rothgars list of [awsome TUIs](https://github.com/rothgar/awesome-tuis).  
-Cosmos72s Text mode windows enviroment - [TWIN](https://github.com/cosmos72/twin)
+Cosmos72s Text mode windows enviroment - [TWIN](https://github.com/cosmos72/twin)  
+Netxs-groups [VTM](https://github.com/netxs-group/vtm)
+
+And some sources for the images:  
+TWIN desktop from [here](https://inconsolation.wordpress.com/2013/01/24/bonus-twin-bigger-and-better-than-ever/).  
