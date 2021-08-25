@@ -29,3 +29,7 @@ A Text-mode User interface based hacking game, entirely run from the terminal, u
 ### Comparisons to real "hacking" software
 
 ## Links:
+
+Here are some various links to other Github places that I used for inspiration:
+
+Rothgars list of [awsome TUIs](https://github.com/rothgar/awesome-tuis).
