@@ -1,5 +1,7 @@
 # Text-mode hacking game
 
+> **This page is still under construction, please come back later.**
+
 A Text-mode User interface based hacking game, entirely run from the terminal, using only 256 color XTERM if possible.
 
 ***
