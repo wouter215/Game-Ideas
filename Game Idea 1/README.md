@@ -153,11 +153,64 @@ The generator would choose from the table Firstnames, "Jane", from Lastnames, "D
 
 ### Programs & files
 
+Programs do things on the computer, whereas files only contain data. A program can be in the form of a file or a running script. Some programs need files to function, as input, or as output, or as any combination of those.
+
+Programs (that are files) and files can be moved or copied between systems. Files have a size to them, that size corresponds to its contents of data.
+
+File systems will not be considered beyond simple `format c:` commands or secure erase vs. deleted file recovery. 
+
+#### Directory structure
+
+Filesystems will be based on drives like the `c:` drive or `$q:` drive for "remote" drives. Each hardware "disk" or data storage medium will be its own "drive".
+
+Most PCs wil have a directory structure like this:  
+c:\ - root.  
+c:\Users - users folder, this contains all user folders on the system.  
+c:\Users\JohnDoe - User folder for JohnDoe user account, by default this user can only create & edit files here.  
+c:\Users\JohnDoe\Documents|Music|Downloads|Images|Contacts|Mail - JohnDoes user folders.  
+c:\OS - Operating system files, by default most of these can't be accessed. This can have different names based on the brand of OS.  
+c:\Settings - Contains settings files for the OS, the Desktop, and all programs. Settings for each program are in sub-folders with the same program name. By default, users cannot access these, but Andmin users can.  
+c:\Programs - Contains executable programs and Libraries. Each program is in its own sub-folder.  
+c:\Programs\OS|Main|Default - default programs that come with the system.  
+c:\Logs - Contains logging files. By default inaccessible by users except Admin users.
+
+Other drives will have different drive letters like: `a:` & `b:` for the floppy drives, `d:` for an extra hard drive, and `e:` for the plugged in USB stick. users will have access to these drives, and programs can run off these. However, these drives can be marked as read-only.
+
 #### Files & file formats
 
-#### Databases & storage
+There are many different kinds of files. Some files are user created and some are created by the programs.
+
+User files like documents, spreadsheets, presentations, text files, music, etc. Are created by using programs. A word processing program, for example, would save a document in the `.doc` format and only a word processing program can open this `.doc` file.
+
+A `.doc` can be edited by other programs, like the note taking app, but it would in some ways garble the contents. Think more old school Microsoft Office files and less modern open-document formats.
+
+![Source: https://ostechnix.com/how-to-display-images-in-the-terminal/](viu-1.png "An Image as text.")
+
+Image files are rendered as ANSI text. When viewed in a text editor, one would see something like this:
+> [K [10;34H [1K(0 [0;1m [37m  
+> [34m [47m(0 [0;1m [37m [47m  
+> [44m [K [11;34H [1K(0 [0;1m  
+> 47m [48X [11;84H (0 [0m [30  
+
+("video" files, I think, would just have to be animated gifs rendered in text.)
+
+
+#### Databases & mass storage
+
+Databases contain vast amounts of data in records, or rows like in a spreadsheet. Data in such databases can be connected to other data. For example: A drivers license database is connected to the identities database.
+
+Databases often have a system to query data. For example: Searching the drivers Lisence database for the name John Doe.  
+These systems can also edit, add or remove records. This however will be logged.
+
+There are also mass storage systems of files, usually in the for of network attached storage (NAS) systems. these usually contain a very large amount of files, or just very big files.
 
 #### Applications (apps), libraries, scripts.
+
+Applications (apps) are the programs a user utilizes to do stuff on a computer. Documents are processed by the word processing app, web browsing is done on the Internet app, and playing music is done by the tunes-player app, etc.
+
+Some programs require extra data in the form of libraries. These library files contain data or embedded files that the program can use in certain situation to preserve memory while it's running. A clock app won't need the data on all timezones in the whole world if it's only displaying the local time.
+
+Scripts are bits of text, lists of terminal commands, that act like a program. these scrips can also be input to the command line as a single command, therefore running in memory and never being a "file".
 
 #### Coding scripts & programs
 
