@@ -26,6 +26,24 @@ There are also some great applications that show off in this style:
 
 ### Hacking
 
+#### Traversing the networks
+
+**Chaining access**  
+In order to gain access to a PC in an apartment, you must first find it by having either an ip address:port or know the address and apt number of the building it's in.
+Building router -> apartment router -> scan LAN -> connect to pc.
+
+#### Tracing & being traced
+
+**Logs**  
+
+**Active connections**  
+
+**Warning programs/scripts**  
+
+**Disconnect**  
+
+**Fake logs & framing them**  
+
 ### Networks
 
 Almost all electronic devices are in some fashion networked. That is Computers, Smart fridges, TVs, Printers, Coffee makers, implants, etc.  
@@ -49,23 +67,56 @@ WiFi is its own network at the MAN level, it provides connectivity to the intern
 **Networking Nodes**
 
 * Router  
-text
+A router manages the traffic between two or more networks.
 * Switch  
-text
+A switch forwards traffic from one port to multiple, allowing multiple connections to come together on one connection.
 * Firewall  
-text
+A firewall blockades unwanted network traffic.
 * Access Point  
-text
+An access point provides routing for wireless systems over WiFi.
 
 ### Devices
 
+There are many kinds of devices in the City, almost all of them have a connection to the City Net in some way. Those that do always have a hackable management system.
+
+#### Networking nodes
+
+**The router**  
+**The switch**  
+**The firewall**  
+**The access point**  
+
 #### Computers & servers
+
+**Computer**  
+**Server**  
+**Network Attached Storage (NAS)**  
+**Printer**  
+**Office printer**  
 
 #### "Smart" devices
 
+**TV**  
+**Doorbell**  
+**Kitchen appliance**  
+**Sound system**  
+**Game system**  
+**Lighting system**  
+
+
 #### Wireless devices
 
+**Wireless PC**  
+**Cellphone**  
+**Personal digital assistant (PDA)**  
+
+
 #### Other systems
+
+**Control sytems**  
+**Security systems**  
+**Public kiosks**  
+**Advertisement screens**  
 
 ### World simulation
 
