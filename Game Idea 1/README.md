@@ -28,14 +28,52 @@ There are also some great applications that show off in this style:
 
 ### Networks
 
+Almost all electronic devices are in some fashion networked. That is Computers, Smart fridges, TVs, Printers, Coffee makers, implants, etc.  
+They are all connected to the City Net. This is the central network of The City.
+
+#### Network topology & networking nodes
+
+**Network Topology**
+
+* Wide Area Network(WAN):  
+These are the DNS servers, major routers, and servers that manage the entire city state.
+* Metropolitan Area Network (MAN):  
+These are the routers that connect to city infrastructure systems like traffic lights. These are public WiFi routers. This is what Building routers connect to.
+* Backbone Network (BB):  
+This is the network of an apartment or office building. Control systems of the building are connected to this network. this network connects all apartment/office LANs to the MAN via the building router.
+* Local area Network (LAN):  
+This is the network of each individual apartment/office in a building. All devices inside a single apartment or office are connected to/via them. They each have a router that connects the LAN to the BB. (regardless of the amount of devices connected in a LAN, like 100s of PCs in a single office, it still is a single LAN)
+* WiFi:  
+WiFi is its own network at the MAN level, it provides connectivity to the internet for wireless devices. Only a single WiFi service is available in the city: City Net WiFi.
+
+**Networking Nodes**
+
+* Router  
+text
+* Switch  
+text
+* Firewall  
+text
+* Access Point  
+text
+
+### Devices
+
+#### Computers & servers
+
+#### "Smart" devices
+
+#### Wireless devices
+
+#### Other systems
+
 ### World simulation
 
 #### Procedural generation
 
 **Generating the city and its contents**
 
-**Generating the NPCs**
-
+**Generating the NPCs**  
 What I expect is, you simply create some lists (.json files?) with names, brands, jobs, street names, network addresses, etc and have the simulator choose from those lists a random item to create in the world, then keep track of that thing while it simulates.
 
 So to create Jane Doe, who lives in apt.5 on streetname, a type 3 apartment, with a PC model: z123.  
