@@ -6,9 +6,20 @@ A Text-mode User interface based hacking game, entirely run from the terminal, u
 
 ***
 
-## Intro:
+## Intro
 
-### Goals:
+Imagine a city-state, the likes of Singapore, Hong Kong SAR, Monaco, and San Marino. Where the local government wants to create a police state and where the big corporations want to monopolize everything. Where everything is connected to the state owned & controlled "internet".
+
+In this world everything has a chip in it & is connected to the internet in some way. And thusly can be hacked. But the electronics in this world never enjoyed fancy things like "ray-traced graphics" & "HD-video", no... What this world has is Text-mode user interfaces & terminals. Imagine your current UI but rendered in 256-color Box-drawing characters and  mono-spaced fonts.
+
+
+
+### Goals
+
+Procedurally generate a City, it's networks, people, systems, corporations, and missions.  
+Make a usable Text-mode User Interface (TUI) for almost all devices.  
+An engaging, hackable world that "lives".  
+No immediate time pressure toward an ultimate failure state.  
 
 ### Look & feel
 
@@ -23,6 +34,8 @@ There are also some great applications that show off in this style:
 
 
 ### Gameplay
+
+Hacking for fun, as a job, to gain reputation, and to "save" the Net in the city from the monopolistic corporations & oppressive government.
 
 ### Hacking
 
@@ -43,6 +56,14 @@ Building router -> apartment router -> scan LAN -> connect to pc.
 **Disconnect**  
 
 **Fake logs & framing them**  
+
+#### Remote desktop, web-management, and terminal access
+
+**Remote desktop**  
+
+**web-management**  
+
+**terminal access**  
 
 ### Networks
 
@@ -130,7 +151,19 @@ What I expect is, you simply create some lists (.json files?) with names, brands
 So to create Jane Doe, who lives in apt.5 on streetname, a type 3 apartment, with a PC model: z123.  
 The generator would choose from the table Firstnames, "Jane", from Lastnames, "Doe", select a street from the streets list, choose an available apartment number on that street name, check what type of apartment that would be, and finally choose a PC from the computers list.
 
-### Programs
+### Programs & files
+
+#### Files & file formats
+
+#### Databases & storage
+
+#### Applications (apps), libraries, scripts.
+
+#### Coding scripts & programs
+
+**Code blocks**  
+
+(Reference [google blockly](https://blockly-demo.appspot.com/static/demos/code/index.html) & [Scratch](https://scratch.mit.edu/) in this part)
 
 ***
 
@@ -146,6 +179,8 @@ There are various games I drew inspiration from, such as these:
 
 
 ### Comparisons to real "hacking" software
+
+(Add comparisons to tools listed [here](https://tools.kali.org/tools-listing) on the kali linux tools page.)
 
 ## Links:
 
