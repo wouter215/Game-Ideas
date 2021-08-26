@@ -244,3 +244,4 @@ Netxs-groups [VTM](https://github.com/netxs-group/vtm)
 
 And some sources for the images:  
 TWIN desktop from [here](https://inconsolation.wordpress.com/2013/01/24/bonus-twin-bigger-and-better-than-ever/).  
+Image as text from [here](https://ostechnix.com/how-to-display-images-in-the-terminal/).  
