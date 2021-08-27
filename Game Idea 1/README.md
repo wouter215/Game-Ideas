@@ -47,7 +47,28 @@ Building router -> apartment router -> scan LAN -> connect to pc.
 
 #### Tracing & being traced
 
+Finding other hackers, or being found by other hackers is done through tracing connections. Whenever a connection is setup, that connection is written to the logs & when running a special command on the command line, is visible to any other connected user:  
+`$who`  
+`JohnDoe Term [01-01-2021 00:00:01] Localhost`  
+`JohnDoe SSH  [01-01-2021 00:00:01] 10.0.0.2`  
+Here John Doe is logged in on its PC, and an external connection is logged in using the same username. Indicating that Johns password has been hacked.
+
+Connections can also be visible on the desktop UI for any logged in user, a brief notification might appear or an alert depending on the OS & software used.
+
+Suppose a system has been hacked and is being used as a platform to launch other hacks from. You might find an active ssh connection in the logs leading to 10.0.0.2, when you look at that target device, it has an active connection to another ip! You would have to hack into the device, find the connection, hack into the next device and repeat until you find the source.
+
 **Logs**  
+Most systems will keep logs of incoming, outgoing, and terminal connections. Also a log for any and all commands issued on the device.
+
+Any systems logs can be used to find out about past or current connections of that device. A log entry like:  
+`[01-01-2021 00:00:01] SSH login successful for user:JohnDoe from 10.0.0.2:22`  
+Shows that a ssh login was successful on Jan first from the ip 10.0.0.2 on port 22. This can be used to trace back where this ssh connection came from. It does not however show if the originating ip was the real origin or merely a proxy.
+
+Database logs can show who edited what record at what time:  
+`[01-01-2021 00:00:01] User:JohnDoe edited to table:"Drivers licenses" record:1234`  
+This shows that John Does account changed some data, if you then check the accounts log for when & from where it logged in, this change can be traced.
+
+Systems keep logs only for a limited time, say one week, to keep it from clogging up the drives.
 
 **Active connections**  
 
@@ -59,11 +80,33 @@ Building router -> apartment router -> scan LAN -> connect to pc.
 
 #### Remote desktop, web-management, and terminal access
 
+When accessing a system or device, you'll be presented with one of several options:  
+* Remote Desktop - This is a computers desktop displayed in a window on your PC. You can interact with is as if it were  your own desktop. In some cases this connection is a live view of the remote desktop.
+* Web-management - This is a "website" hosted by the target device. Opened in your web-browser, this website contains some simple options for the device or  displays info on the device. If you've ever had to set up your home router, it's like that.
+* Terminal - The most universal & most prevalent interfacing method. Almost all devices have a way to connect to its terminal interface. And in this world, over the internet!
+
+When connecting to a system, you can for the most part detect which of these options are available. A firewall may allow direct terminal connections trough but not remote desktop, in such cased you'd have to hack into a device  behind the firewall via the terminal, then pipe the remote desktop trough it.
+
 **Remote desktop**  
+The remote desktop is simply a window on your desktop that shows a remote one. The remote desktop may show an alert or notification that a connection has been set up.  
+The remote desktop allows you to log in as a user of the target system would and you'd be able to do whatever they could.
+
+You can also copy data & files to and from the remote desktop.
+
+Live viewing of a remote desktop will show a permanent notification it the target desktops taskbar.
 
 **web-management**  
+These are websites served by devices connected to the network, for example:  
+A printer would show a page with status about the printer, a page where you can upload a document to be printed, a settings page, and a page where you can download printed/scanned documents.  
+Routers, most of them at least, also have a web-management console form where you can make changes to its functions and see its current status. But also download logs, see active connections, see a list of devices connected to its internal network, see a network topology, etc.
+
+Web-management portals can be password locked.
 
 **terminal access**  
+Almost all devices have a form of terminal access. Where you can connect via ssh, telnet, rlogin etc. And mostly require a password and/or username.  
+On a terminal you can issue commands, set up connections, and other things.
+
+What you can do on a terminal can be limited by its system, a printer won't be able to proxy connections and a smart microwave wont have database commands.
 
 ### Networks
 
@@ -88,17 +131,25 @@ WiFi is its own network at the MAN level, it provides connectivity to the intern
 **Networking Nodes**
 
 * Router  
-A router manages the traffic between two or more networks.
+A router manages the traffic between two or more networks.  
+Routers have a list of all devices connected to the internal networks. a topology map can be made from these.  
+Routers have two or more "sides" to them:
+	* One "external" side - The side that connects them to the grater network, like from the LAN to the BB.
+	* At least one "internal" side - This one connects the internal network to the external one.  
 * Switch  
-A switch forwards traffic from one port to multiple, allowing multiple connections to come together on one connection.
+A switch forwards traffic from one port to multiple, allowing multiple connections to come together on one connection. If a router sees multiple connected devices on a single port, that means that there's probably a switch on the network. Switches come in two forms:  
+	* Smart - This switch has some limited router settings and can be accessed via a terminal.
+	* Dumb - This kind of switch simple forwards traffic to all connected ports.
 * Firewall  
-A firewall blockades unwanted network traffic.
+A firewall blockades unwanted network traffic.  
+All firewalls are network devices in this world, a PC or server won't have its own software firewall.
 * Access Point  
-An access point provides routing for wireless systems over WiFi.
+An access point provides routing for wireless systems over WiFi.  
+As all WiFi is public and controlled by the City Net, you won't find these in peoples homes or offices. When hacking into the Public WiFi system one can track connected devices on the map or hack into the access points themselves to alert when a specific device is nearby.
 
 ### Devices
 
-There are many kinds of devices in the City, almost all of them have a connection to the City Net in some way. Those that do always have a hackable management system.
+There are many kinds of devices in the City, almost all of them have a connection to the City Net in some way. Those that do always have a hack-able management system.
 
 #### Networking nodes
 
@@ -164,15 +215,15 @@ File systems will not be considered beyond simple `format c:` commands or secure
 Filesystems will be based on drives like the `c:` drive or `$q:` drive for "remote" drives. Each hardware "disk" or data storage medium will be its own "drive".
 
 Most PCs wil have a directory structure like this:  
-c:\ - root.  
-c:\Users - users folder, this contains all user folders on the system.  
-c:\Users\JohnDoe - User folder for JohnDoe user account, by default this user can only create & edit files here.  
-c:\Users\JohnDoe\Documents|Music|Downloads|Images|Contacts|Mail - JohnDoes user folders.  
-c:\OS - Operating system files, by default most of these can't be accessed. This can have different names based on the brand of OS.  
-c:\Settings - Contains settings files for the OS, the Desktop, and all programs. Settings for each program are in sub-folders with the same program name. By default, users cannot access these, but Andmin users can.  
-c:\Programs - Contains executable programs and Libraries. Each program is in its own sub-folder.  
-c:\Programs\OS|Main|Default - default programs that come with the system.  
-c:\Logs - Contains logging files. By default inaccessible by users except Admin users.
+`c:\` - root.  
+`c:\Users` - users folder, this contains all user folders on the system.  
+`c:\Users\JohnDoe` - User folder for JohnDoe user account, by default this user can only create & edit files here.  
+`c:\Users\JohnDoe\Documents|Music|Downloads|Images|Contacts|Mail` - JohnDoes user folders.  
+`c:\OS` - Operating system files, by default most of these can't be accessed. This can have different names based on the brand of OS.  
+`c:\Settings` - Contains settings files for the OS, the Desktop, and all programs. Settings for each program are in sub-folders with the same program name. By default, users cannot access these, but Andmin users can.  
+`c:\Programs` - Contains executable programs and Libraries. Each program is in its own sub-folder.  
+`c:\Programs\OS|Main|Default` - default programs that come with the system.  
+`c:\Logs` - Contains logging files. By default inaccessible by users except Admin users.
 
 Other drives will have different drive letters like: `a:` & `b:` for the floppy drives, `d:` for an extra hard drive, and `e:` for the plugged in USB stick. users will have access to these drives, and programs can run off these. However, these drives can be marked as read-only.
 
