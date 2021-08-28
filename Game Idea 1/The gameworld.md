@@ -77,3 +77,18 @@ Software wise the world is dominated by a single monolithic company, MegaHard (o
 This corporation wishes to monopolize all computer use, but is thwarted by its last real competitor: Other-company (like how Apple is vs Microsoft)  
 There's also a open source alternative (i.e. Linux), but it's not very usable to the average user and is therefore used mostly by hobbyists and hackers.
 
+### Differences in technology
+
+So mostly all systems, computers, devices, are all interconnected to the network. The Internet in The City is controlled by the government, but mostly in a hands-off kind of way. They only only slowly beginning to exercise control, mainly trough the big evil corporations.
+
+This interconnectedness makes it so that any device can, with a little effort, be found on the internet. A lot of these systems can also be interfaced with, mainly through remote desktop, web-interfaces, or terminal interfaces. This is how the player gets to hack all the things.
+
+All computers still use text mode interfaces or a dos prompt. This means all software is like the old dos programs, like edit on ms-dos, or Lotus-123 etc.  
+While the PCs do have mouse support, a lot is still done via command line.
+
+The player will view this world purely as text mode. even images will be rendered as colored text. The mode I've tried is 8 by 16 pixel blocks with sigle symbols in them. (open up your command prompt and see its glorious mono-spaced text)  
+So everything is rendered as 8 by 16 pixel blocks with symbols in them. These can each have a color. so you can have a block be "green" and the symbol inside it be "red". The color palette would be something like 256-color XTerm.
+
+Not all things inside the gameworld are text mode, just like you can make great looking typeset documents on the command line using something like LaTeX. When the player looks at the world its through this text mode "filter", while the NPC's computers are made up of text mode displays, they can perceive things like advert billboards, typeset documents, and office plants as "normal" as we do. The player will not.
+
+### Time & the progression of time
