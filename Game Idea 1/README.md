@@ -13,8 +13,12 @@ A Text-mode User interface based hacking game, entirely run from the terminal, u
         - [ ] Looming loss of freedoms
     - [ ] The City
         - [ ] City state
+            - [ ] comparisons to current city states
         - [ ] Decline into corruption
+            - [ ] monopolization by corporations
+            - [ ] Increasing control drive of the government over the people
         - [ ] Politics
+            - [ ] Corruption
         - [ ] State Control
         - [ ] Corporate control
     - [ ] The factions
@@ -24,12 +28,17 @@ A Text-mode User interface based hacking game, entirely run from the terminal, u
             - [ ] The Police
             - [ ] Other government institutions
         - [ ] The public
+        - [ ] The Press
+            - [ ] News
+            - [ ] Newspapers
+            - [ ] Journalism
         - [ ] The Public services
+            - [ ] Utilities
         - [ ] The criminal organizations
             - [ ] Explain hats
-            - [ ] White hat
-            - [ ] Black hat
-            - [ ] Gray hat
+                - [ ] White hat
+                - [ ] Black hat
+                - [ ] Gray hat
             - [ ] Criminal gangs
             - [ ] Vigilante groups
         - [ ] The Other hackers
@@ -47,13 +56,36 @@ A Text-mode User interface based hacking game, entirely run from the terminal, u
             - [ ] Interaction
         - [ ] Adding & removing people
     - [ ] The network/internet
+        - [ ] Websites
+        - [ ] Services
+        - [ ] Hidden services & websites
     - [ ] (Alternate) History of the wold
+        - [ ] The how and why of TUI use
+        - [ ] Why everything is connected
     - [ ] Look and feel of the world and The City
+        - [ ] Representation to the player
+        - [ ] Buildings
+            - [ ] Towers
+        - [ ] Streets
 - [ ] Add thoughts on how to generate world
     - [ ] Generating for simulation
     - [ ] Generating People
+        - [ ] NPC personality generation
     - [ ] Generating Organizations
+        - [ ] Corporations
+        - [ ] Government
+            - [ ] Police
+        - [ ] Public services
+        - [ ] Criminal organizations
+        - [ ] Hacker groups
+        - [ ] Others
     - [ ] Generating the map
+        - [ ] Generating apartment/office layout
+            - [ ] And their networks
+        - [ ] Generating building layouts
+            - [ ] And their networks
+        - [ ] Generating streets & city blocks
+            - [ ] And their networks
     - [ ] Generating the networks
     - [ ] Generating the devices
         - [ ] Computers
@@ -61,10 +93,6 @@ A Text-mode User interface based hacking game, entirely run from the terminal, u
         - [ ] Servers
         - [ ] Databases
         - [ ] Other devices
-    - [ ] Generating apartment/office layout
-        - [ ] And their networks
-    - [ ] Generating building layouts
-        - [ ] and their networks
 - [ ] Add vision for the look and feel
     - [ ] Explain TUI
     - [ ] Add vision for TUI based game
