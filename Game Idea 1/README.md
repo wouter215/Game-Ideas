@@ -4,6 +4,112 @@
 
 A Text-mode User interface based hacking game, entirely run from the terminal, using only 256 color XTERM if possible.
 
+## To Do:
+- [ ] Add vision for game world
+    - [ ] The world
+        - [ ] Technology differences
+        - [ ] Looming loss of freedoms
+    - [ ] The City
+        - [ ] City state
+        - [ ] Decline into corruption
+        - [ ] Politics
+        - [ ] State Control
+        - [ ] Corporate control
+    - [ ] The factions
+        - [ ] The corporations
+            - [ ] Corporate enforcement
+        - [ ] The government
+            - [ ] The Police
+            - [ ] Other government institutions
+        - [ ] The public
+        - [ ] The Public services
+        - [ ] The criminal organizations
+            - [ ] Explain hats
+            - [ ] White hat
+            - [ ] Black hat
+            - [ ] Gray hat
+            - [ ] Criminal gangs
+            - [ ] Vigilante groups
+        - [ ] The Other hackers
+            - [ ] Player tutorial group
+            - [ ] Hobbyist group
+            - [ ] Protest group
+            - [ ] Activist group
+        - [ ] Economic classes
+    - [ ] The People
+        - [ ] Person simulation
+            - [ ] Stats
+            - [ ] Routines
+            - [ ] Minds
+            - [ ] Intercommunication
+            - [ ] Interaction
+        - [ ] Adding & removing people
+    - [ ] The network/internet
+    - [ ] (Alternate) History of the wold
+    - [ ] Look and feel of the world and The City
+- [ ] Add thoughts on how to generate world
+    - [ ] Generating for simulation
+    - [ ] Generating People
+    - [ ] Generating Organizations
+    - [ ] Generating the map
+    - [ ] Generating the networks
+    - [ ] Generating the devices
+        - [ ] Computers
+        - [ ] Nodes
+        - [ ] Servers
+        - [ ] Databases
+        - [ ] Other devices
+    - [ ] Generating apartment/office layout
+        - [ ] And their networks
+    - [ ] Generating building layouts
+        - [ ] and their networks
+- [ ] Add vision for the look and feel
+    - [ ] Explain TUI
+    - [ ] Add vision for TUI based game
+- [ ] Add vision for networking
+    - [ ] How does everything connect
+    - [ ] Simulated data flows
+    - [ ] Connections & proxies
+- [ ] Add vision for Gameplay
+    - [ ] Add vision for systems use
+    - [ ] Add vision for moving about in the world
+    - [ ] Add vision for NPC interaction
+- [ ] Add vision for hacking
+    - [ ] Add vision for hacking tools
+    - [x] Add vision for tracing
+    - [ ] Add vision for being traced
+- [ ] Add vision for hardware
+    - [ ] Add vision for computers
+    - [ ] Add vision for networking nodes
+    - [ ] Add vision for servers
+    - [ ] Add vision for other devices
+- [ ] Add vision for player story
+    - [ ] The start
+    - [ ] The motivation
+    - [ ] Endings
+- [ ] Add vision for modding
+    - [ ] Adding data
+    - [ ] Removing data
+- [ ] Add vision for game story structure
+    - [ ] The overall story
+    - [ ] Background story happenings
+    - [ ] Missions
+    - [ ] Discovery
+- [ ] Add vision for player progression
+    - [ ] Add vision for rewards
+    - [ ] Add vision for player "housing"
+    - [ ] Add vision for player upgrading living standards
+- [ ] Add vision for software
+    - [ ] Add vision for operating systems
+    - [ ] Add vision for office software
+    - [x] Add vision for files
+    - [ ] Add vision for databases
+    - [ ] Add vision for apps
+- [x] Add Links to sources
+- [ ] Add comparisons to real hacking software
+
+
+
 ***
 
 ## Intro
