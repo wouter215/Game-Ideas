@@ -32,6 +32,9 @@ Another cool one is [VTM](https://github.com/netxs-group/vtm), It makes full use
 There are also some great applications that show off in this style:  
 [Midnight Commander](http://midnight-commander.org/) (`mc`), [Spotify TUI](https://github.com/Rigellute/spotify-tui)(`spt`), [MapSCII](https://github.com/rastapasta/mapscii)(`mapscii`), [timg](https://github.com/hzeller/timg/)(`timg`), [VisiData](https://github.com/saulpw/visidata)(`vd`), and many more applications found [here](https://github.com/rothgar/awesome-tuis).
 
+I've created this mockup of a TUI desktop:
+![Source: http://wouter4ud7jgpbh2zu3aczlzx6xqqqem5pugldoj4i7eirxkep3gkxad.onion/game-idea-a-terminal-based-hacking-game-part-2.html](desktop-test2-path.svg "A TUI Desktop Mockup.")  
+Imagine this but with variable fonts and color themes.
 
 ### Gameplay
 
