@@ -8,6 +8,8 @@ A Text-mode User interface based hacking game, entirely run from the terminal, u
 - [ ] Add vision for game world
     - [ ] The world
         - [ ] Technology differences
+        - [ ] Time & the progression of time
+        - [ ] Everything is interconnected
         - [ ] Looming loss of freedoms
     - [ ] The City
         - [ ] City state
@@ -72,8 +74,19 @@ A Text-mode User interface based hacking game, entirely run from the terminal, u
     - [ ] Connections & proxies
 - [ ] Add vision for Gameplay
     - [ ] Add vision for systems use
-    - [ ] Add vision for moving about in the world
     - [ ] Add vision for NPC interaction
+    - [ ] Add vision for inventory system
+    - [ ] Relations with NPCs
+    - [ ] Add vision for location traversal
+        - [ ] NPCs moving
+        - [ ] The player moving
+        - [ ] Navigable locations
+            - [ ] Apartments & offices
+            - [ ] Player home
+            - [ ] Streets
+            - [ ] Buildings
+            - [ ] Other locales
+    - [ ] Visual representation for moving
 - [ ] Add vision for hacking
     - [ ] Add vision for hacking tools
     - [x] Add vision for tracing
@@ -99,6 +112,10 @@ A Text-mode User interface based hacking game, entirely run from the terminal, u
     - [ ] Add vision for rewards
     - [ ] Add vision for player "housing"
     - [ ] Add vision for player upgrading living standards
+    - [ ] Reputation tracking
+        - [ ] Rep with govenment
+        - [ ] Rep with corporations
+        - [ ] Rep with groups
 - [ ] Add vision for software
     - [ ] Add vision for operating systems
     - [ ] Add vision for office software
