@@ -9,7 +9,7 @@
         - [x] Time & the progression of time
         - [x] Everything is interconnected
         - [x] Looming loss of freedoms
-    - [ ] The City
+    - [x] The City
         - [x] City state
             - [x] comparisons to current city states
         - [x] Decline into corruption
@@ -17,8 +17,7 @@
             - [x] Increasing control drive of the government over the people
         - [x] Politics
             - [x] Corruption
-        - [ ] State Control
-        - [ ] Corporate control
+        - [x] State Control
     - [ ] The factions
         - [ ] The corporations
             - [ ] Corporate enforcement
@@ -32,6 +31,7 @@
             - [ ] Journalism
         - [ ] The Public services
             - [ ] Utilities
+        - [ ] The Unions
         - [ ] The criminal organizations
             - [ ] Explain hats
                 - [ ] White hat
@@ -178,4 +178,18 @@ Many industries have unionized workers, for example the port workers, public sec
 
 [Political corruption](https://en.wikipedia.org/wiki/Political_corruption) ranges from taking bribes to embezzlement to cronyism. There are still un-corrupt and un-corruptible politicians, but they are aging out of politics.
 
+
+### State Control
+
+The City government controls the City Net, all public services, the subway system, and many public housing buildings.
+
+Where it comes to lawmaking, the congress is failing to push back against the corporate lobbying.
+
+## The factions
+
+There are various "factions" for the game in The City, these are: The Corporations, The Government, The Public, The Press, The Public services, The Unions, The Criminal organizations, The Hackers, and the economic classes.
+
+NPCs can be part of multiple of these factions at once.
+
+### The Corporations
 
