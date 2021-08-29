@@ -5,10 +5,10 @@
 
 - [ ] Add vision for game world
     - [ ] The world
-        - [ ] Technology differences
-        - [ ] Time & the progression of time
-        - [ ] Everything is interconnected
-        - [ ] Looming loss of freedoms
+        - [x] Technology differences
+        - [x] Time & the progression of time
+        - [x] Everything is interconnected
+        - [x] Looming loss of freedoms
     - [ ] The City
         - [ ] City state
             - [ ] comparisons to current city states
@@ -67,6 +67,7 @@
         - [ ] Streets
 
 ## The World
+
 This game takes place within a small city state. Located in Random-place, this small nation sits isolated between two superpowers. (Superpowers relative to this city state that is...)
 
 Simply called "The City", this nation has great ties with almost all nations of the world, housing many large office buildings and high tech industry. The City does not, however, get along well with its jealous neighbors. This has caused its government to take a more freedoms restricting pose.
@@ -92,3 +93,27 @@ So everything is rendered as 8 by 16 pixel blocks with symbols in them. These ca
 Not all things inside the gameworld are text mode, just like you can make great looking typeset documents on the command line using something like LaTeX. When the player looks at the world its through this text mode "filter", while the NPC's computers are made up of text mode displays, they can perceive things like advert billboards, typeset documents, and office plants as "normal" as we do. The player will not.
 
 ### Time & the progression of time
+
+So in games like [Uplink](https://store.steampowered.com/app/1510/Uplink/) and [Hacknet](https://hacknet-os.com/), time progresses even when the player does nothing. In the Uplink example the player only has a limited amount of time to "stop" the big bad, or else it's game over. This is not what i've got in mind for this game idea. While days go by as normal, I think major story beats should only occur at major mission milestones, or reputation milestones. This isn't to say there's no time pressure, there should be. For example: when you take a mission, you only have two days to complete it. Another example: the evil corp won't launch its master plan until the player gains enough notoriety. 
+
+Local time in game I thing should progress a little faster than IRL, like double the speed.
+
+### Everything is interconnected
+
+In this world all devices have a connection to the internet, whether it's through the LAN or WiFi. All connected devices also have a way to interface with it over the network. These will take the forms of things like remote desktop, where you'll have a window on your screen showing the remote screen, web-interface, where you load up a management website for the device in your browser, and terminal, where you log in to it on the command line like with ssh.
+
+This means that all devices can be hacked, if you have enough skill. The interconnection is managed loosely by the City government. If you compare it to IP addresses, it would be something like 127.20.30.40, "127" would be The City, "20" would be the city block, "30" would be the Tower on the block, and "40" would be the apartment router. While routers may have something like [NAT](https://en.wikipedia.org/wiki/Network_address_translation), this would require a hacker to first break into the router, then navigate the routers internal LAN.
+
+I don't envision private WiFi in this world, public WiFi is provided by the City on the streets, parks, and public spaces. but not internally in buildings. The City government/police plans to use this WiFi to track people. That means hackers can track people too, giving more mission possibilities.
+
+### Looming loss of freedoms
+
+Story wise, the people of The City are looking at oncoming restrictions of freedoms, both from the The City government & the corporations. The City government is "concerned" about the press looking into official corruption (this corruption is steadily increasing as the corporations gain more power) and about possible enemy action from its larger neighbors. The corporations want to monopolize peoples lives, the evil corp wants all the users to use its OS, the advertisement company wants everyone looking at its ads (and legally ban adblock for example).
+
+The Press Is facing increasing legal action against it, first from the corrupt politicians, then also from the corporations. There are some public interest groups (think [EFF](https://www.eff.org/)) that wish to push back against this trend, but in this world they are hopelessly out-funded by the corporate lobbyists.
+
+The big fear is that The City will slowly turn into a corporate controlled Police State.
+
+As for the computer users, the OS supplied by the big evil corp is increasingly more locked down with each "upgrade". This means that the OS won't let its users first have thing like "admin" privileges, second only allow big evil corp apps to run, and third have backdoor access for the government/police (and criminals).
+
+## The City
