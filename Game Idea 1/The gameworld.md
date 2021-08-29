@@ -4,19 +4,19 @@
 ## ToDo
 
 - [ ] Add vision for game world
-    - [ ] The world
+    - [x] The world
         - [x] Technology differences
         - [x] Time & the progression of time
         - [x] Everything is interconnected
         - [x] Looming loss of freedoms
     - [ ] The City
-        - [ ] City state
-            - [ ] comparisons to current city states
-        - [ ] Decline into corruption
-            - [ ] monopolization by corporations
-            - [ ] Increasing control drive of the government over the people
-        - [ ] Politics
-            - [ ] Corruption
+        - [x] City state
+            - [x] comparisons to current city states
+        - [x] Decline into corruption
+            - [x] monopolization by corporations
+            - [x] Increasing control drive of the government over the people
+        - [x] Politics
+            - [x] Corruption
         - [ ] State Control
         - [ ] Corporate control
     - [ ] The factions
@@ -117,3 +117,65 @@ The big fear is that The City will slowly turn into a corporate controlled Polic
 As for the computer users, the OS supplied by the big evil corp is increasingly more locked down with each "upgrade". This means that the OS won't let its users first have thing like "admin" privileges, second only allow big evil corp apps to run, and third have backdoor access for the government/police (and criminals).
 
 ## The City
+
+The City, a city state between two superpowers (again, relative to it the might as well be), consists of a grid of streets making city blocks. The City has a big park in the center, a coastline with a port, and is packed to the brim with high-rise apartment buildings and offices. Underneath the city runs a subway network. Its industry is high tech, mostly web-services, data centers, and chip making.
+
+This city is quite wealthy for its size, average income is high, but the pay-gap between rich and poor is growing (also thanks to official corruption). Many international banks have a HQ in The City.
+
+### City State
+
+As its own independent nation, The City has a seat at the [UN](https://www.un.org/), and is considered the crown jewel of the region (Where in the world is it? who knows, somewhere between Wakanda and Sokovia).
+
+Its tourism business is not very big, most hotels only server traveling business people.
+
+The City has a currency, both in cash and "digital" form, although not in the crypto-coin kind of way. The currency is called the City [Stater](https://en.wikipedia.org/wiki/Stater) with the symbol "`¤`". 1,00 Stater buys you one loaf of bread.
+
+The Food supply to its population goes through its port, though there are some efforts going on indoor farming in one or two of its towers.
+
+#### Comparisons to current city states
+
+Currently there are several [city states](https://en.wikipedia.org/wiki/City-state#Modern_city-states) in the world: [Monaco](https://en.wikipedia.org/wiki/Monaco), [Singapore](https://en.wikipedia.org/wiki/Singapore), the [Vatican](https://en.wikipedia.org/wiki/Vatican_City), [San Marino](https://en.wikipedia.org/wiki/San_Marino), [Hong Kong SAR](https://en.wikipedia.org/wiki/Hong_Kong), and [Macau SAR](https://en.wikipedia.org/wiki/Macau).
+
+Many of these are oriented toward tourism, business or religion (tax avoidance). I'd say The City has about the surface area of Macao. But the wealth of Monaco with a GDP (ppp) total of about $20 billion.
+
+Unlike Hong Kong or Macao, The City has no political overlord, it is fully independent.
+
+### Decline into corruption
+
+Once a bastion of democratic process & press freedom. The City government is slowly losing its way, politicians are increasingly more corrupt, giving in to bribes and corporate lobbying. While the Press freedoms keep decreasing, Corporations, politicians, and the very rich increasingly launching lawsuits at the press for uncovering their corrupt activities.
+
+"Fearing" hostile action by its neighbors, The City increasingly employs "covert" action against its own population to "root out" spies, officially that is. On the more corrupt end, they use the police to silence critics and press.
+
+#### Monopolization by corporations
+
+The people currently still have a "free" choice of OS for their PCs. They have the choice between the ubiquitous OS by the big evil corp, A competitor to it (again like MacOS to Windows), or an open source alternative (Linux something). The big evil corp is trying to change that. Restricting what kind of PCs its OS can install on & providing [Lock In](https://en.wikipedia.org/wiki/Vendor_lock-in) to almost all business users of the OS. They also make PCs themselves and are locking down its hardware to its own OS.
+
+Other software is being restricted by the big evil corps OS, as newer versions of the OS no longer allow for "admin" access to install non-big evil corp software. The big evil corps OS is of course also continuously more loaded with popup ads and back-doors for the State.
+
+The Bigger corporations are paying off government official for monopolizing contracts and increasingly running [FUD](https://en.wikipedia.org/wiki/Fear,_uncertainty,_and_doubt) against open source software.
+
+#### Increasing control drive of the government over the people
+
+To stave off the "external threats", the government of The City increasingly deploys surveillance against its citizens. This includes wiretapping phone calls, intercepting emails, and other communications. But also tracking people through the public WiFi.
+
+While officially this is used against "spies", the politicians and government bureaucrats increasingly see to its use against the free press and activists.
+
+Internet wise, the government wants to "protect the children" by censoring "adult websites", but they are also beginning to block other sites, like the download page for the free open source OS to "protect" against "hackers".
+
+The Police wishes to make its work easier by adding more cameras to the City, and using government back-doors in operating systems to read info. Increasingly doing so without a warrant.
+
+### Politics
+
+The City is run by a small congress of elected officials, and its head of state is the Chief Executive.
+
+While elections are free, many of the elected politicians were "sponsored" by big corporations.
+
+Each residential block has its own community commission, they receive and handle the concerns of their blocks residents over to the government.
+
+Many industries have unionized workers, for example the port workers, public sector workers, and the chip factories workers. although these are increasingly clamped down on.
+
+#### Corruption
+
+[Political corruption](https://en.wikipedia.org/wiki/Political_corruption) ranges from taking bribes to embezzlement to cronyism. There are still un-corrupt and un-corruptible politicians, but they are aging out of politics.
+
+
