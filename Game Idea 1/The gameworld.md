@@ -18,33 +18,29 @@
         - [x] Politics
             - [x] Corruption
         - [x] State Control
-    - [ ] The factions
-        - [ ] The corporations
-            - [ ] Corporate enforcement
-        - [ ] The government
-            - [ ] The Police
-            - [ ] Other government institutions
-        - [ ] The public
-        - [ ] The Press
-            - [ ] News
-            - [ ] Newspapers
-            - [ ] Journalism
-        - [ ] The Public services
-            - [ ] Utilities
-        - [ ] The Unions
-        - [ ] The criminal organizations
-            - [ ] Explain hats
-                - [ ] White hat
-                - [ ] Black hat
-                - [ ] Gray hat
-            - [ ] Criminal gangs
-            - [ ] Vigilante groups
-        - [ ] The Other hackers
-            - [ ] Player tutorial group
-            - [ ] Hobbyist group
-            - [ ] Protest group
-            - [ ] Activist group
-        - [ ] Economic classes
+    - [x] The factions
+        - [x] The corporations
+            - [x] Corporate enforcement
+        - [x] The government
+            - [x] The Police
+            - [x] Other government institutions
+        - [x] The public
+        - [x] The Press
+        - [x] The Public services
+        - [x] The Unions
+        - [x] The criminal organizations
+            - [x] Criminal gangs
+            - [x] Vigilante groups
+        - [x] The Other hackers
+            - [x] Explain hats
+                - [x] White hat
+                - [x] Black hat
+                - [x] Gray hat
+            - [x] Player tutorial group
+            - [x] Hobbyist group
+            - [x] Protest group
+            - [x] Activist group
+        - [x] Economic classes
     - [ ] The People
         - [ ] Person simulation
             - [ ] Stats
@@ -193,3 +189,94 @@ NPCs can be part of multiple of these factions at once.
 
 ### The Corporations
 
+The Corporations are mostly in it for the money, specifically, to insure that the share holders (the rich) get the most returns an their investments.
+
+#### Corporate enforcement
+
+Some corporations, like Big evil corp, have their own "enforcement" groups. These are like private security groups or corporate IT hackers.
+
+Their goal is corporate security, protecting against hackers, and rooting out industrial spies from The Cities neighbors.
+
+If they find hackers (you the player), then they mostly just report it to the police, or they send their IT after them.
+
+### The Government
+
+The govenment concerns itself with lawmaking, tax collection, and city management.
+
+#### The Police
+
+The Police serve to reduce crime, including cyber-crime. They also hand out parking tickets.
+
+#### Other government institutions
+
+Public utilities, Hospitals, Fire Departments, Libraries, Parks, and stuff.
+
+### The Public
+
+The citizenship of The City just wants to live and have a job. They may have opinions on the goings on of The City. Including the players activities.
+
+### The Press
+
+The City enjoys several Press outlets in multiple forms of media. News on TV, Radio, and News Websites comes from press outlets of different categories. You have the corporate media (Main stream media), Independent media (Blogs, smaller news sites and outlets), and the state press (mostly announcing new laws and stuff).
+
+Press journalists search for new stories by talking to people on the street, or by getting tips.
+
+### The Public services
+
+These are the public service workers.
+
+### The Unions
+
+The unions are gatherings of specific worker groups per work sector. Unions provide a way for workers of a company to collectively demand better worker conditions and salary.
+
+(Corrupt influence in The City government is increasingly driving laws criminalizing union action and even membership.)
+
+### The Criminal organizations
+
+The City has various criminal organizations, mostly in the illegal narcotics trade.
+
+The Gangs are crime groups consisting of small groups of people. they usually have a "hideout" location or a base of operations. apart from petty vandalism, they're increasingly leaning toward cyber-crime.
+
+Vigilante groups are "hard core" activists that sabotage Corporate processes or "go after" corrupt politicians reputation.
+
+### The Hackers
+
+The "hackers" are people with the knowledge to use computer systems in a more liberated way. Most hackers use their knowlede of cyber systems to make money, or create some change in the world.
+
+#### The Hats
+
+The hacker group is somewhat divided in hats.
+
+**White hat**
+White hat hackers work in the open, usually hired by others to "test" their systems security.
+
+**Black hat**
+Black hat hackers work in the shadows, mostly to earn money or to collect secrets to sell.
+
+**Gray hat**
+Gray hat hackers work for corporations like big evil corp to influence politicians, perform cyber attacks on compeditors, and "go after" other hackers.
+
+
+#### Player tutorial group
+
+When the player first leans about the possibility of hacking, this tutorial goup helps them along in a sting of increasingly difficult lessons. They disband/Are eliminated/Loose relevance/ etc. after the player finishes the tutorial.
+
+####  Hobbyist group
+
+These are mostly singular or small groups of hackers that type away at their keyboards about a single small subject. Like the new OS by big evil corp.
+
+When the player hacks into a random apartment to find weird electronics and source code documents, they've probably found a hobbyist hacker.
+
+#### Protest group
+
+These are groups of hackers spreading protest material of some public grievance. Like hacking a billboard to show how big evil corp is bad yo.
+
+#### Activist group
+
+Activist hackers employ their knowledge to enact some kind of social change. Like demonstrating the back-door in big evil corps latest OS release.
+
+### Economic classes
+
+The people of the City can be divided along economic lines, you have: the unemployed, the lower class, middle class, upper class, and the rich. Above the rich are also the 1% and above them the 0.1%.
+
+## The People
