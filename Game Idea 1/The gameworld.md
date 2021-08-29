@@ -280,3 +280,18 @@ Activist hackers employ their knowledge to enact some kind of social change. Lik
 The people of the City can be divided along economic lines, you have: the unemployed, the lower class, middle class, upper class, and the rich. Above the rich are also the 1% and above them the 0.1%.
 
 ## The People
+
+The NPCs I envision for this game like [sims](https://sims.fandom.com/wiki/Sim). Beings with a mind, a life, a job. When the player is going about hacking all the things, John Doe the NPC is having his little routing of moving from home to work, logging in at work, working, logging out at work, moving back home, utilizing devices in its home, then sleeping through the night. Rinse and repeat. 
+
+What I mean by this is not like actual sims in the Sims games, not need for complex 3d models or anything. They exist as data. they create and use files in the background of the game. Only when the player finds them do they have a real "form".
+
+### Person simulation
+
+
+#### Stats
+#### Routines
+#### Minds
+#### Intercommunication
+#### interaction
+
+### Adding and removing people
