@@ -3,7 +3,7 @@
 
 ## ToDo
 
-- [ ] Add vision for game world
+- [x] Add vision for game world
     - [x] The world
         - [x] Technology differences
         - [x] Time & the progression of time
@@ -41,19 +41,18 @@
             - [x] Protest group
             - [x] Activist group
         - [x] Economic classes
-    - [ ] The People
-    - [ ] The network/internet
-        - [ ] Websites
-        - [ ] Services
-        - [ ] Hidden services & websites
-    - [ ] (Alternate) History of the wold
-        - [ ] The how and why of TUI use
-        - [ ] Why everything is connected
-    - [ ] Look and feel of the world and The City
-        - [ ] Representation to the player
-        - [ ] Buildings
-            - [ ] Towers
-        - [ ] Streets
+    - [x] The People
+    - [x] The network/internet
+        - [x] Websites
+        - [x] Services
+        - [x] Hidden services & websites
+    - [x] (Alternate) History of the wold
+        - [x] The how and why of TUI use
+        - [x] Why everything is connected
+    - [x] Look and feel of the world and The City
+        - [x] Representation to the player
+        - [x] Buildings
+        - [x] Streets
 
 ## The World
 
@@ -276,15 +275,77 @@ The people of the City can be divided along economic lines, you have: the unempl
 
 The NPCs I envision for this game like [sims](https://sims.fandom.com/wiki/Sim). Beings with a mind, a life, a job. When the player is going about hacking all the things, John Doe the NPC is having his little routing of moving from home to work, logging in at work, working, logging out at work, moving back home, utilizing devices in its home, then sleeping through the night. Rinse and repeat. 
 
-What I mean by this is not like actual sims in the Sims games, not need for complex 3d models or anything. They exist as data. they create and use files in the background of the game. Only when the player finds them do they have a real "form".
+What I mean by this is not like actual sims in the Sims games, no need for complex 3d models or anything. They exist as data. they create and use files in the background of the game. Only when the player finds them do they have a real "form".
 
-### Person simulation
+Individual NPCs will have a home, possibly a job (they can work from home), a set of "relations" with other NPCs, and personal data tied to them.
 
+While not all aspects of people are simulated, like no hunger, or other needs. They do communicate about things like food.
 
-#### Stats
-#### Routines
-#### Minds
-#### Intercommunication
-#### interaction
+## The Network / Internet
 
-### Adding and removing people
+The City Net, as its called, is the internet service in The City. Almost all things are directly connected to it. The city net connects all city blocks, the buildings, and apartments/offices in those buildings. Inside an apartment, the LAN connects all devices.
+
+For mobile devices, such as smart phones or laptops, the City Nets WiFi service provides City wide universal coverage. (although none use the public WiFi in home or office, they'd plug in their Ethernet cable) 
+
+The Network is inescapable in The City, there are only few devices that are not directly connected, they're still connected mind you, but only through a proxy, or a one-way system.
+
+### Websites
+
+The internet in The City is available to all (who can afford the City Net metered costs). Many use the internet to visit The Cities websites, web-services, browse the news sites, play online games, or work remotely.
+
+There are various websites available: News sites, hobbyist sites, meme collections, blogs, you name it.
+
+While most websites are served from large data-centers, most are administrated remotely. Few major websites run on office or even home servers. Those running on home servers are probably just minor blogs.
+
+### Services
+
+There are a number of web services accessible on the City Net. These services provide software stores, software updates, remote administration ad other services over the internet.
+
+### Hidden Websites & Services
+
+You may be familiar with [Tor](https://www.torproject.org/). This service provides a way to anonymously use the internet. The City Net wont have such a service. while there may be "hidden" services & websites, these merely cannot be found using a search engine, and/or need a login to access.
+
+## (Alternate) History of the world
+
+While "The City" is fictional, it should have a history, and a place in the world.
+
+Some of the more glaring differences: Everything is connected to the internet, graphics are mostly stuck in TUI mode.
+
+### The how and why of TUI use
+
+Big evil corp or whoever is responsible for the most used PC brands & OS software, never quite invested a lot in improving graphics modes. When we had vector graphics, they had text prompts, when we got texturing, they got color text mode, and so on.
+
+There was simply no need to innovate beyond what programs like the word processor or the spreadsheet calculator needed. What computers do have is "improved" networking. 
+
+### Why everything is connected
+
+(for gameplay reasons, I'd like to be able to hack ALL the things)
+
+Things like Cable TV or radio tv were phased out in favor of [IPTV](https://en.wikipedia.org/wiki/Internet_Protocol_television), Copper wire telephone made way for [VoIP](https://en.wikipedia.org/wiki/Voice_over_IP). MAny people bought into the idea of "smart" devices. So everything from the elevator control system to your microwave oven is connected to the internet.
+
+## Look and feel of the world and The City
+
+The City is a densely packed city state, made of high-rises and towers. The map is mostly a grid of city blocks, with between two or 6 towers on each block.
+
+A lot of the cities street level views are block by advertisement billboards.
+
+### Representation to the player
+
+The Player will view this world as a Text-Mode User Interface (TUI). When traversing the street, the screen would look like [mapscii](https://github.com/rastapasta/mapscii). Websites will look like they're viewed through something like [Browsh](https://www.brow.sh/). Graphics will be displayed as [ascii art](https://en.wikipedia.org/wiki/ASCII_art).
+
+### Buildings
+
+Most buildings are towers, with not a lot of space on the horizontal plane, The City had to build vertically.
+
+These towers have at the ground floor: a lobby, elevator entrances, stairway entrances, and parking/cellar storage access.  
+The rest of the floors are made up of apartments or offices, depending on the tower. An apartment building floor would consist of a hallway with elevator access, stairway access, and doorways to multiple apartments. Office tower floors may have one big office or multiple smaller ones, depending on the company or corporations in the tower.
+
+The elevators, the AC, and other building equipment is usually managed from a server in the basement or top floor.
+
+### Streets
+
+The grid of streets in The City is easy to navigate, just north vs. south & east vs. west.
+
+The streets have lights, [CCTV](https://en.wikipedia.org/wiki/Closed-circuit_television), and public WiFi.
+
+Sometimes there are makets on the street, or small vending stalls.
