@@ -50,13 +50,6 @@ A Text-mode User interface based hacking game, entirely run from the terminal, u
             - [ ] Activist group
         - [ ] Economic classes
     - [ ] The People
-        - [ ] Person simulation
-            - [ ] Stats
-            - [ ] Routines
-            - [ ] Minds
-            - [ ] Intercommunication
-            - [ ] Interaction
-        - [ ] Adding & removing people
     - [ ] The network/internet
         - [ ] Websites
         - [ ] Services
@@ -95,6 +88,14 @@ A Text-mode User interface based hacking game, entirely run from the terminal, u
         - [ ] Servers
         - [ ] Databases
         - [ ] Other devices
+- [ ] Add vision for simulation
+    - [ ] Person simulation
+            - [ ] Stats
+            - [ ] Routines
+            - [ ] Minds
+            - [ ] Intercommunication
+            - [ ] Interaction
+        - [ ] Adding & removing people
 - [ ] Add vision for the look and feel
     - [ ] Explain TUI
     - [ ] Add vision for TUI based game
